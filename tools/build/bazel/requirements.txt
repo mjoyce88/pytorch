@@ -190,7 +190,7 @@ urllib3==2.0.2 \
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==67.8.0 \
+setuptools==70.0.0 \
     --hash=sha256:5df61bf30bb10c6f756eb19e7c9f3b473051f48db77fddbe06ff2ca307df9a6f \
     --hash=sha256:62642358adc77ffa87233bc4d2354c4b2682d214048f500964dbe760ccedf102
     # via -r tools/build/bazel/requirements.in
