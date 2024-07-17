@@ -6,4 +6,9 @@ sphinx_copybutton>=0.3.1
 IPython==8.12.0
 myst-nb==0.13.2
 # Fixing upper version due to https://github.com/sphinx-doc/sphinx/issues/10306
-Jinja2<3.1.0
+Jinja2<3.1.4
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
