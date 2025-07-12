@@ -14,3 +14,4 @@ filelock
 networkx
 jinja2
 fsspec
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
